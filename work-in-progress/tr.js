@@ -82,10 +82,10 @@ settings.import Taşı
 settings.export Geçir
 settings.none Ayarlar Bulunamadı
 settings.backup Yedek Ayarlar
-settings.controls.change Tus Ayarları
+settings.controls.change Tuş Ayarları
 settings.controls.press Herhangi bir tuşa basın
 settings.local.header Localization <span id="requiresRestart"><span style="color: #eb5656">*</span> yeniden başlatma gerektirir</span>
-settings.local.region Varsayılan Bolge
+settings.local.region Varsayılan Bölge
 settings.local.lang Dil
 settings.network.header Bağlantı Ağı
 settings.network.sendRate Yüksek Tıklama Oranı
@@ -98,18 +98,18 @@ settings.experimental.header Deneysel
 settings.experimental.aimFreezeFix Nişan Donmasını Düzelt
 settings.experimental.mouseFlickFix Fare Hareketini Düzelt
 settings.experimental.shaderRendering Örnek İşleme
-settings.experimental.staticRendering Static Rendering
-settings.client.header Client
-settings.client.unlimitedFrames Unlimited FPS
-settings.client.gameCap Game Capture
-settings.client.experimental Experimental Features
+settings.experimental.staticRendering Statik İşleme
+settings.client.header Uygulama
+settings.client.unlimitedFrames Limitsiz FPS
+settings.client.gameCap Oyun Yakalama
+settings.client.experimental Deneysel Özellikler
 settings.client.discordRPC Discord RPC
-settings.client.resourceSwapper Resource Swapper
-settings.client.clearCache Clear Cache
-settings.client.resetSettings Reset Client Settings
-settings.client.acceleratedCanvas Accelerated Canvas
-settings.client.angleBackend ANGLE Graphics Backend
-settings.client.colorProfile Color Profile
+settings.client.resourceSwapper Kaynak Değiştirici
+settings.client.clearCache Önbelleği Temizle
+settings.client.resetSettings Uygulama Ayarlarını Sıfırla
+settings.client.acceleratedCanvas Hızlandırılmış Tuval
+settings.client.angleBackend Açı Grafik Arka Ucu
+settings.client.colorProfile Profil Rengi
 settings.dev.header Geliştirici
 settings.dev.forceUpdate Skin Güncellemelerini Zorla
 settings.dev.forceRegen Oyuncuyu Her Zaman Yenile
@@ -467,14 +467,14 @@ windows.controls.interactSec İkinci Etkileşim
 windows.controls.confirm Etkileşimi Kabul Et
 windows.controls.drop Drop
 windows.controls.wepVis Silah Görünürlüğünü Değiştir
-windows.controls.kickVoteY Vote Kick [Yes]
-windows.controls.kickVoteN Vote Kick [No]
-windows.controls.kpdVoteY KPD Vote [Yes]
-windows.controls.kpdVoteN KPD Vote [No]
-windows.controls.specFree Toggle Free Cam
-windows.controls.specObj Toggle Objective Cam
-windows.controls.specFirst Toggle First Person
-windows.controls.specNames Toggle Forced Names
+windows.controls.kickVoteY Atma Oyu [Yes]
+windows.controls.kickVoteN Atma Oyu [No]
+windows.controls.kpdVoteY KPD Oyu [Yes]
+windows.controls.kpdVoteN KPD Oyu [No]
+windows.controls.specFree Serbest Kamerayı Aç/Kapat
+windows.controls.specObj Objektif Kamerayı Aç/Kapa
+windows.controls.specFirst Birincil Kişiyi Aç/Kapa
+windows.controls.specNames Zorlanan İsimleri Aç/Kapa
 windows.controls.streak0 Öldürme Serisi 1
 windows.controls.streak1 Öldürme Serisi 2
 windows.controls.streak2 Öldürme Serisi 3
@@ -484,10 +484,10 @@ windows.controls.premium0 Noclip
 windows.controls.premium1 Tanrı Modu
 windows.controls.premium2 Öldür
 windows.controls.premium3 Öl
-windows.controls.dev0 Developer Bind 1
-windows.controls.dev1 Developer Bind 2
-windows.controls.dev2 Developer Bind 3
-windows.controls.dev3 Developer Bind 4
+windows.controls.dev0 Geliştirici Bağı 1
+windows.controls.dev1 Geliştirici Bağı 2
+windows.controls.dev2 Geliştirici Bağı 3
+windows.controls.dev3 Geliştirici Bağı 4
 windows.controls.reset Pozisyonunu Sıfırla (Yarış & Parkur)
 windows.controls.pretend Oyunu Sakla
 windows.host.header Özel Oyun Kur
@@ -673,7 +673,7 @@ server.config.warmupTime Isınma Zamanı
 server.config.gamRounds Rounds
 server.config.objtvTime Objektif Süresi
 server.config.forceSpawn Otomatik Olarak Yeniden Doğma Süresi
-server.config.intermTmr Intermission (s)
+server.config.intermTmr Molalar (s)
 server.config.scoreLimit Skor Limiti
 server.config.keepTScore Takım Skorunu Sabit Tut
 server.config.forceC Mod Zorlama
@@ -781,41 +781,41 @@ windows.clan.leave Klandan ayrılmak istediğinize emin misiniz?
 windows.clan.delete Klanı silmek istediğinize emin misiniz?
 windows.clan.kick {0} oyuncusunu klandan atmak istediğinize emin misiniz?
 windows.store.premium.purchase günlük premium almak istediğiniz emin misiniz?
-windows.store.premium.gift Are you sure you want to Gift '{0}' {1} days of Premium?
+windows.store.premium.gift '{0}' {1} günlük Premium hediye etmek istediğinizden emin misiniz?
 windows.playerlist.ban {0} oyuncusunu yasaklamak istediğinize emin misiniz?
 windows.playerlist.flag {0} oyuncusunu damgalatmak istediğinize emin misiniz?
 windows.playerlist.unflag {0} oyuncusunun damgasını kaldırmak istediginize emin misiniz?
 windows.playerlist.punish üzerinde işlem yapmak istediğinize emin misiniz?
-item.view.open Open Model Viewer
-item.view.more More Information
-item.sell.cant Item cant be sold.
-item.sell.quick Are you sure you want to Quick Sell {0}?
-social.profile.stats Overall Stats
-social.profile.class Class Stats
-social.profile.sales Sales
-social.profile.sales.market Market Sales
-social.profile.skins Skins [{0}]
-social.profile.skins.none No published Skins from this user
-social.profile.games Games [{0}]
-social.profile.games.none No published Games from this user
-social.profile.assets Assets [{0}]
-social.profile.assets.none No published Assets from this user
-social.profile.mods Mods [{0}]
-social.profile.mods.none No published Mods from this user
-social.search Search Results
-social.market.stats.rare Rarest Items
-social.market.stats.circulation In Circulation
-social.market.stats.units units Worldwide
-social.trades.in Incoming
-social.trades.in.head Incoming Offers ({0})
-social.trades.out Outgoing
-social.trades.out.head Outgoing Offers ({0})
-social.trades.history History
-social.trades.history.head Trade History ({0})
-social.trades.decline Decline All
-social.trades.message ENABLE TRADE MESSAGES IN SETTINGS
-social.trades.warning You get no items from this trade!
-social.trades.accept Are you sure you want to accept this offer?
-stats.airdrops KR-Packages
-settings.quality.flapAnim Sniper Flap Animation
+item.view.open Model Görüntüleyicisini Aç
+item.view.more Daha çok bilgi
+item.sell.cant Eşya satılamaz.
+item.sell.quick {0} eşyasını hızlı satışa çıkarmak istediğinizden emin misiniz?
+social.profile.stats Genel İstatistikler
+social.profile.class Silah İstatistikleri
+social.profile.sales Satışlar
+social.profile.sales.market Market Satışları
+social.profile.skins Desenler [{0}]
+social.profile.skins.none Bu kullanıcı tarafından yayınlanmış herhangi bir desen yok.
+social.profile.games Oyunlar [{0}]
+social.profile.games.none Bu kullanıcı tarafından yayınlanmış herhangi bir oyun yok.
+social.profile.assets Assetler [{0}]
+social.profile.assets.none Bu kullanıcı tarafından yayınlanmış herhangi bir Asset yok.
+social.profile.mods Modlar [{0}]
+social.profile.mods.none Bu kullanıcı tarafından yayınlanmış herhangi bir Mod yok.
+social.search Arama Sonuçları
+social.market.stats.rare En Nadir Eşyalar
+social.market.stats.circulation Piyasada
+social.market.stats.units Dünya Çapında Eşya Sayısı
+social.trades.in Gelen
+social.trades.in.head Gelen Teklifler ({0})
+social.trades.out Giden
+social.trades.out.head Giden Teklifler ({0})
+social.trades.history Geçmiş
+social.trades.history.head Takas Geçmişi ({0})
+social.trades.decline Hepsini Reddet
+social.trades.message AYARLARDAN TAKAS MESAJLARINI ETKİNLEŞTİR.
+social.trades.warning Bu takastan eşya almıyorsun!
+social.trades.accept Bu teklifi kabul etmek istediğinden emin misin?
+stats.airdrops KR-Paketleri
+settings.quality.flapAnim Sniper Dürbün Kapağı Animasyonu
 `;
