@@ -186,8 +186,8 @@ settings.interface.net-stats Bağlantı İstatistiklerini Göster
 settings.interface.fps FPS Düzeyini Göster
 settings.interface.deaths Ölüm Sayacını Göster
 settings.interface.kd K/D Sayacını Göster
-settings.interface.kills Öldürme Sayacını Göster
-settings.interface.streak Öldürme Serisi Sayacını Göster
+settings.interface.kills Leş Sayacını Göster
+settings.interface.streak Leş Serisi Sayacını Göster
 settings.interface.score Skor Sayacını Göster
 settings.interface.spectators İzleyici Sayacını Göster
 settings.interface.speed Hareket Hızı
@@ -239,7 +239,7 @@ settings.crosshair.opacity.use Özel Opaklık Kullan
 settings.crosshair.opacity.custom Özel Opaklık
 settings.hitmarker.header İsabet İşareti
 settings.hitmarker.color Renk
-settings.hitmarker.kcolor Öldürme Rengi
+settings.hitmarker.kcolor Leş Rengi
 settings.hitmarker.thickness Kalınlık
 settings.hitmarker.opacity Opaklık
 settings.hitmarker.leng Uzunluk
@@ -384,12 +384,12 @@ settings.mods.profile Profil Resmi
 settings.mods.profile.paste Profil Resmi URL'si
 settings.mods.ammo Ammo İkon Resmi
 settings.mods.ammo.paste Mermi İkonu Resmi URL
-settings.mods.kills Öldürme İkon Resmi
-settings.mods.kills.paste Öldürme İkon Resmi URL
+settings.mods.kills Leş İkon Resmi
+settings.mods.kills.paste Leş İkon Resmi URL
 settings.mods.deaths Ölüm İkon Resmi
 settings.mods.deaths.paste Ölüm İkon Resmi URL
 settings.mods.streak Streak Sayaç İkon Resmi
-settings.mods.streak.paste Öldürme Serisi İkonu Resim URL
+settings.mods.streak.paste Leş Serisi İkonu Resim URL
 settings.mods.timer Sayaç İkonu
 settings.mods.timer.paste Sayaç İkonu Resim URL
 settings.mods.usedamage Hasar Yerleşimini Kullan
@@ -653,10 +653,10 @@ server.config.t4Dmg Takım 4 Hasar
 server.config.t5Dmg Takım 5 Hasar
 server.config.selTeam Takım Seç
 server.config.allowSpect İzleniyor
-server.config.killRewards Öldürme Ödülleri
+server.config.killRewards Leş Ödülleri
 server.config.headshotOnly Sadece Kafadan Vuruşlar
 server.config.noSecondary İkincil Silahları Devre Dışı Bırak
-server.config.noStreaks Öldürme Serilerini Devre Dışı Bırak
+server.config.noStreaks Leş Serilerini Devre Dışı Bırak
 server.config.canSlide Kayma
 server.config.wallJP Duvar Atlama Gücü
 server.config.autoJump Oto Zıplama
