@@ -49,7 +49,7 @@ generic.games.lost Kaybedilen Maçlar
 generic.timep Oynanan Süre
 generic.kills Öldürülenler
 generic.deaths Ölümler
-generic.kdr KDR
+generic.kdr LÖO
 generic.time Zaman
 generic.logout Çıkış Yap
 generic.logout.sessions Tüm Oturumlardan Çıkış Yap
