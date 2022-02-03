@@ -217,13 +217,13 @@ settings.interface.healthColE Düşman İsim Kartı Sağlık Rengi
 settings.interface.xpBarCol XP Barı Rengi
 settings.interface.xpBarCol2 XP Bar Color 2
 settings.interface.xpBarOpac XP Barı Opaklığı
-settings.medals.header Medals
-settings.medals.show Show Medals
-settings.medals.classic Classic Medals
-settings.medals.sound Play Medal Sounds
-settings.medals.scale Medal Scale
-settings.medals.xOff Medal X Offset
-settings.medals.yOff Medal Y Offset
+settings.medals.header Madalyalar
+settings.medals.show Madalyaları Göster
+settings.medals.classic Klasik Madalyalar
+settings.medals.sound Madalya Seslerini Oynat
+settings.medals.scale Madalya Boyutu
+settings.medals.xOff Madalya X Konumu
+settings.medals.yOff Madalya Y Konumu
 settings.crosshair.header Nişangah
 settings.crosshair.type Şekil
 settings.crosshair.type.1 Dinamik
@@ -305,7 +305,7 @@ settings.gameprivacy.verified Doğrulama Rozetini Göster
 settings.gameprivacy.premium Premium Rozetini Göster
 settings.gameprivacy.partner Ortaklık Rozetini Göster
 settings.gameprivacy.rank Dereceli Rozetini Göster
-settings.gameprivacy.custom Show Custom Badge
+settings.gameprivacy.custom Özel Rozeti Göster
 settings.gameplay.header Oynanış
 settings.gameplay.gpSetts Oynanış Ayarları
 settings.gameplay.sensitivityX X Duyarlılığı
@@ -669,12 +669,12 @@ mod.disabled modlar devre dışı
 mod.error mod hatası!
 mod.loading mod yükleniyor...
 mod.invalid geçersiz mod dosyası!
-matchmaker.full FULL
-matchmaker.GameFull Game is full.
-matchmaker.NoServersMatchQuery GAME UPDATING
-matchmaker.InvalidGameId Game not found.
-matchmaker.NoAvailableServers Servers are at Max Capacity
-matchmaker.GameIssue Unknown Join Issue
+matchmaker.full DOLU
+matchmaker.GameFull Oyun dolu.
+matchmaker.NoServersMatchQuery OYUN GÜNCELLENİYOR
+matchmaker.InvalidGameId Oyun bulunamadı.
+matchmaker.NoAvailableServers Sunucular maximum kapasitede
+matchmaker.GameIssue Bilinmeyen Giriş Hatası
 adblocker Bedava Krunkies alabilmek için reklam engelleyiciyi devre dışı bırakın.
 ad-failed Reklam yüklenemedi. Lütfen tekrar deneyin
 streamers.views {0} izleyici
@@ -754,7 +754,7 @@ server.config.fallDmg Düşüş Hasarı
 server.config.fallDmgThr Düşüş Hasarı Harmanı
 server.config.noDraws Beraberlik Yok
 server.config.bstOfR En iyiler
-server.config.chrgWeps Chargable Weapons
+server.config.chrgWeps Ücretli Silahlar
 social.login Giriş yap/Kayıt ol
 social.login.failed Giriş başarısız oldu
 social.login.buy Satın almak için giriş yap
@@ -785,11 +785,11 @@ social.market.waist Bel
 social.market.face Yüz
 social.market.shoe Ayakkabı
 social.market.pet Pet
-social.market.wrist Wrist Item
+social.market.wrist Bilek Öğesi
 social.market.melee Bıçak
 social.market.spray Sprey
 social.market.dye Kıyafet
-social.market.collectible Collectible Item
+social.market.collectible Koleksiyonluk Öğe
 social.market.none Eşya bulunamadı
 social.market.login Giriş yapmalısınız.
 social.market.grace {0} içinde hazır
@@ -860,7 +860,7 @@ item.view.more Daha Çok Bilgi
 item.sell.cant Eşya satılamaz.
 item.sell.cant.krunker Item cant be sold on krunker.
 item.sell.quick {0} eşyasını hızlı satışa çıkarmak istediğinizden emin misiniz?
-item.sell.destroy Are you sure you want to Destroy {0}?
+item.sell.destroy {0}'ı yok etmek istediğinizden emin misiniz?
 social.profile.stats Genel İstatistikler
 social.profile.class Silah İstatistikleri
 social.profile.sales Satışlar
@@ -888,27 +888,27 @@ social.trades.message AYARLARDAN TAKAS MESAJLARINI ETKİNLEŞTİR.
 social.trades.warning Bu takastan eşya almıyorsun!
 social.trades.accept Bu teklifi kabul etmek istediğinden emin misin?
 stats.airdrops KR-Paketleri
-stats.airdrops.stolen Airdrops Stolen
+stats.airdrops.stolen Çalınan Airdroplar
 settings.quality.flapAnim Sniper Dürbün Kapağı Animasyonu
-chall.name.hs Get {0} headshots {1}
-chall.name.ns Get {0} no-scopes {1}
-chall.name.ls Get {0} legshots {1}
-chall.name.tmk Get {0} throwing knife kills {1}
-chall.name.fb Get {0} first bloods {1}
-chall.name.mk Get {0} melee kills {1}
-chall.name.fk Get {0} fist kills {1}
-chall.name.qs Get {0} quickscopes {1}
-chall.name.wb Get {0} wallbangs {1}
-chall.name.airk Get {0} mid-air kills {1}
-chall.name.lns Get {0} longshots {1}
-chall.name.tk Get {0} turbo kills {1}
-chall.name.drk Get {0} drift kills {1}
+chall.name.hs Get {0} Kafadan Vuruşlar {1}
+chall.name.ns Get {0} no-scopelar {1}
+chall.name.ls Get {0} ayaktan vuruşlar {1}
+chall.name.tmk Get {0} bıçak atılarak alınan öldürmeler {1}
+chall.name.fb Get {0} ilk kanlar {1}
+chall.name.mk Get {0} elle öldürmeler {1}
+chall.name.fk Get {0} yumrukla öldürmeler {1}
+chall.name.qs Get {0} quickscopelar {1}
+chall.name.wb Get {0} duvardan öldürmeler {1}
+chall.name.airk Get {0} havada öldürmeler {1}
+chall.name.lns Get {0} uzun vuruşlar {1}
+chall.name.tk Get {0} turbo öldürmeler {1}
+chall.name.drk Get {0} drift öldürmeler {1}
 chall.name.kstk Get a {0} killstreak {1}
-chall.name.w Win {0} matches
-chall.name.d Die {0} times
-chall.name.score Get {0} score
-chall.name.dmg Deal {0} damage {1}
-chall.name.bzk Get {0} buzz kills {1}
-chall.name.cc Get {0} close-calls {1}
-chall.name.rk Deal {0} revenge kills {1}
+chall.name.w {0} maç kazan
+chall.name.d {0} kez öl
+chall.name.score {0} Skor al
+chall.name.dmg {0} Kadar hasar al {1}
+chall.name.bzk {0} Kadar buzz öldürme al  {1}
+chall.name.cc {0} Kadar yakın çağrı al {1}
+chall.name.rk {0} kadar intikam öldürmelerine mağruz kal  {1}
 `;
