@@ -220,11 +220,11 @@ settings.interface.nametagStyle.all Her şey
 settings.interface.healthNum İsim Kartı Sağlık Sayacı
 settings.interface.healthColT Takım İsim Kartı Sağlık Rengi
 settings.interface.healthColE Düşman İsim Kartı Sağlık Rengi
-settings.interface.xpBarType XP Bar Type
+settings.interface.xpBarType XP Bar Türü
 settings.interface.xpBarCol XP Barı Rengi
 settings.interface.xpBarCol2 XP Bar Color 2
 settings.interface.xpBarOpac XP Barı Opaklığı
-settings.interface.adsObjOpac ADS Objective Opacity
+settings.interface.adsObjOpac ADS Objektif Opaklığı
 settings.medals.header Madalyalar
 settings.medals.show Madalyaları Göster
 settings.medals.classic Klasik Madalyalar
@@ -381,8 +381,8 @@ settings.viewmodel.weapReloadY Silah Şarjör Y Konumu
 settings.viewmodel.yOffADS Silah ADS Y Konumu
 settings.viewmodel.adsFovMlt ADS Yaklaştırma Gücü
 settings.viewmodel.toggleADS Silah ADS'ini Aç/Kapat
-settings.viewmodel.wallLean Wall Slide/Jump Lean
-settings.viewmodel.wallLeanMlt Wall Slide/Jump Lean
+settings.viewmodel.wallLean Duvarda Kayma/Zıplamak
+settings.viewmodel.wallLeanMlt Duvarda Kayma/Zıplamak
 settings.editing.header Düzenleme
 settings.editing.health.high Yüksek Can Uyarı Ekranı
 settings.editing.health.low Düşük Can Uyarı Ekranı
@@ -494,7 +494,7 @@ windows.loadout.wrist Wrist
 windows.loadout.stat Ölüm Kartı İstatistikleri
 windows.loadout.flag Ülke Bayrağı
 windows.loadout.badge Özel Rozet
-windows.loadout.streaks Streaks
+windows.loadout.streaks Seriler
 windows.mods.drop mod dosyasını buraya bırakın veya tıklayın
 windows.mods.paste Mod URL'sini Yapıştır
 windows.mods.load Mod İndir
@@ -564,11 +564,11 @@ windows.controls.premium1 Tanrı Modu
 windows.controls.premium2 Öldür
 windows.controls.premium3 Anında Öldürme
 windows.controls.reset Pozisyonunu Sıfırla (Yarış & Parkur)
-windows.controls.resetLast Reset To Last Checkpoint (Parkour etc)
+windows.controls.resetLast Son Kontrol Noktası'na Sıfırla (Parkur vb.)
 windows.controls.pretend Oyunu Sakla
 windows.controls.noclipSB Noclip
-windows.controls.godModeSB Godmode
-windows.controls.killSB Kill
+windows.controls.godModeSB Tanrı Modu
+windows.controls.killSB Öldür
 windows.host.header Özel Oyun Kur
 windows.host.maps Sunucu Kurulumu
 windows.host.cmaps Topluluk Oyunu
@@ -682,7 +682,7 @@ windows.ranked.login Derecelide oynamak için!
 windows.ranked.level Dereceli oynamak için en az <span color="black">level {0}</span> olman gerek! Şu anda <span color="black">level {1}</span>.
 windows.chall.header Görevler
 windows.chall.login Görevleri tamamlamak için!
-windows.spin.header Prize Wheel
+windows.spin.header Ödül Çarkı
 thumbnail.upload.limit Başarısız. {0}kb Kapak Fotoğrafı Limiti
 image.upload.limit Başarısız. {0}kb Resim Limiti
 thumbnail.upload.error Kapak Fotoğrafı Hatası
@@ -696,7 +696,7 @@ matchmaker.GameFull Oyun Dolu.
 matchmaker.NoServersMatchQuery Oyun Güncelleniyor.
 matchmaker.InvalidGameId Oyun Bulunamadı.
 matchmaker.NoAvailableServers Sunucular Maksimum Kapasitede.
-matchmaker.NoMatchingServers No Games Found<br><small>Try changing Quickplay options</small>
+matchmaker.NoMatchingServers Herhangi bir oyun bulunamadı<br><small>Hızlıoyun seçeneklerini değiştirmeyi deneyin</small>
 matchmaker.GameIssue Bilinmeyen Katılım Sorunu
 adblocker Bedava Krunkies alabilmek için reklam engelleyiciyi devre dışı bırakın.
 ad-failed Reklam yüklenemedi. Lütfen tekrar deneyin
@@ -738,7 +738,7 @@ server.config.t3Dmg Takım 3 Hasar
 server.config.t4Dmg Takım 4 Hasar
 server.config.t5Dmg Takım 5 Hasar
 server.config.selTeam Takım Seç
-server.config.frFire Friendly Fire
+server.config.frFire Dost Ateşi
 server.config.allowSpect İzleniyor
 server.config.killRewards Öldürme Ödülleri
 server.config.headshotOnly Sadece Kafadan Vuruşlar
@@ -751,7 +751,7 @@ server.config.bDrop Mermi Düşmesi
 server.config.thirdPerson 3. Kişi
 server.config.requireCaptcha Captcha Gerektir
 server.config.nameTags İsim Kutularını Sakla
-server.config.nameTagsFR Hide Nametags (Allies)
+server.config.nameTagsFR İsim etiketlerini sakla (Müttefikler)
 server.config.kCams Öldürülme Kamerası
 server.config.aAnon Anonime İzin Ver
 server.config.noReload Mermi Yenileme Yok
@@ -767,7 +767,7 @@ server.config.scoreLimit Skor Limiti
 server.config.keepTScore Takım Skorunu Sabitle
 server.config.forceC Mod Sınıflarını Zorla
 server.config.logTim Log Süresi (Yarış, Parkur)
-server.config.lstChkT Last Checkpoint Time Rewind (Race/Bhop)
+server.config.lstChkT Son Kontrol Noktası Zamanı Geri Sarma (Yarış/Bhop)
 server.config.hitBoxPad Hitbox Dolgusu
 server.config.hpRegen Can Yenilenmesi
 server.config.disableB Sınırları Devre Dışı Bırak
@@ -830,7 +830,7 @@ social.market.gift KR Hediye Et
 social.market.gift.msg Mesaj bırak
 respawn.auto {0} içinde yeniden spawnlanılacak
 custom.host.ranked Dereceli maç esnasında oyun kuramazsın.
-custom.host.wager Can't host match while in Wager.
+custom.host.wager Bahis sırasında oyun kurulamaz.
 funds.insufficient Yetersiz Bakiye
 funds.out Görünüşe göre hiç KR'ın kalmadı.
 custom.passcode.long Şifre çok uzun
@@ -856,11 +856,11 @@ mod.reset.1 Map Objeleri sıfırlanmaz.
 windows.profile.picture Resim Değiştir
 stats.assists Asistler
 stats.nukes Nükleer Bombalar
-stats.slimers Slimers
-stats.juggernauts Juggernauts
-stats.juggernauts.kills Juggernaut Kills
-stats.juggernauts.killed Juggernauts Killed
-stats.warmachines War Machines
+stats.slimers Balçıklar
+stats.juggernauts Juggernautlar
+stats.juggernauts.kills Juggernaut Leşleri
+stats.juggernauts.killed Öldürülen Juggernautlar
+stats.warmachines Savaş Makinesi
 stats.melee Bıçaklanan
 stats.fistkills Yumruklanan
 stats.thrownkills Bıçak Fırlatılan
@@ -869,10 +869,10 @@ stats.wallbangs Wallbangler
 stats.crouches Çömelmeler
 stats.sprays Sıkılan Spreyler
 stats.kpd Yardımcı Raporlar
-stats.shots Shots
-stats.hits Hits
-stats.misses Misses
-stats.legshots Legshots
+stats.shots Vuruşlar
+stats.hits İsabetler
+stats.misses İsabet Etmeyenler
+stats.legshots Bacaktan Vuruşlar
 windows.host.default.settings Varsayılan ayarları açmak oyuncu ilerlemesini ve yüksek skorlarını depolar
 windows.host.default.commands *Kurucu ayarları şu modlarda kapalıdır: /noclip /god /smite öldürme vb.
 windows.host.rewards KR ödüllerini açmak sunucuyu varsayılan ayarlarda oynamaya zorlar & oyuncuların map para kaynağından para kazanmasını sağlar:
@@ -1006,8 +1006,8 @@ server.message.kicked {0} oyundan kovuldu
 server.message.banned {0} oyundan banlandı
 server.message.votekicked {0} oy birliğiyle kovuldu
 server.message.arrested {0} K.P.D tarafından gözaltına alındı
-event.easter.golden.spawn A Golden egg is near
-event.easter.golden.despawn A Golden egg has gone
-event.easter.found.new {0} found {1}/{2} Eggs
-event.easter.found.old You already discovered this egg!
-event.easter.completed {0} completed the Egg hunt!
+event.easter.golden.spawn Bir altın yumurta yakında
+event.easter.golden.despawn Bir altın yumurta gitti
+event.easter.found.new {0}found {1}/{2} Eggs
+event.easter.found.old Bu yumurtayı zaten keşfettin!
+event.easter.completed {0} Yumurta avını bitirdi!
